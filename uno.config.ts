@@ -27,7 +27,7 @@ shortcuts: [
     ],
 theme: {
     colors: {
-        'primary': '#880088',
+        'primary': 'var(--primary)',
     }
-    }
+  }
 })
