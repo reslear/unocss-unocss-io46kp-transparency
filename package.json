@@ -12,12 +12,12 @@
   },
   "devDependencies": {
     "@iconify-json/logos": "^1.1.42",
-    "@unocss/core": "latest",
-    "@unocss/preset-attributify": "latest",
-    "@unocss/preset-icons": "latest",
+    "@unocss/core": "0.58.5",
+    "@unocss/preset-attributify": "0.58.5",
+    "@unocss/preset-icons": "0.58.5",
     "@vitejs/plugin-vue": "^5.0.3",
     "typescript": "^5.3.3",
-    "unocss": "latest",
+    "unocss": "0.58.5",
     "vite": "^5.0.12"
   },
   "stackblitz": {
