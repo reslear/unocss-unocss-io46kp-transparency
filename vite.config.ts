@@ -30,6 +30,11 @@ export default defineConfig({
           },
         }),
       ],
+      theme: {
+        colors: {
+            'primary': '#880088',
+        }
+      }
     }),
   ],
 })
