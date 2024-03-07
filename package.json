@@ -8,17 +8,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.3.9"
+    "vue": "3.4.21"
   },
   "devDependencies": {
-    "@iconify-json/logos": "^1.1.42",
+    "@iconify-json/logos": "1.1.42",
     "@unocss/core": "0.58.5",
     "@unocss/preset-attributify": "0.58.5",
     "@unocss/preset-icons": "0.58.5",
-    "@vitejs/plugin-vue": "^5.0.3",
-    "typescript": "^5.3.3",
+    "@vitejs/plugin-vue": "5.0.4",
+    "typescript": "5.4.2",
     "unocss": "0.58.5",
-    "vite": "^5.0.12"
+    "vite": "5.1.5"
   },
   "stackblitz": {
     "installDependencies": false,
