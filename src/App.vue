@@ -9,10 +9,10 @@ const mode = useColorMode({
   },
 })
 
-</script> 
+</script>
 
 <template>
-  <div text-center font-sans p4>
+  <div text-center font-sans p4 class="bg-bg">
     <div logo />
     <div class="text-primary/50 text-lg">
       Hello UnoCSS + Vue
@@ -24,6 +24,8 @@ const mode = useColorMode({
     <!-- @unocss-skip-end -->
 
 
-    <button @click="mode."></button>
+    <button @click="mode =  mode === 'dark' ? 'light' : 'dark'">
+    {{ mode }}
+    </button>
   </div>
 </template>

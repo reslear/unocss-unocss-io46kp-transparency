@@ -33,6 +33,7 @@ export default defineConfig({
       theme: {
         colors: {
           'primary': 'rgb(var(--primary), <alpha-value>)',
+          'bg': 'rgb(var(--bg), <alpha-value>)',
         }
       }
     }),
