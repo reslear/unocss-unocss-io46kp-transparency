@@ -1,3 +1,16 @@
+<script lang="ts" setup>
+import { useColorMode } from '@vueuse/core'
+
+const mode = useColorMode({
+  emitAuto: true,
+  modes: {
+    contrast: 'dark contrast',
+    cafe: 'cafe',
+  },
+})
+
+</script> 
+
 <template>
   <div text-center font-sans p4>
     <div logo />
@@ -9,5 +22,8 @@
     <!-- @unocss-skip-start -->
     <div hidden class="bg-[url(../src/uno.svg)] bg-[url(/uno.svg)]" />
     <!-- @unocss-skip-end -->
+
+
+    <button @click="mode."></button>
   </div>
 </template>
